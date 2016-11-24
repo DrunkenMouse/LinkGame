@@ -15,6 +15,9 @@
 		16CF9BAE1DE56F4300073787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF9BAC1DE56F4300073787 /* LaunchScreen.storyboard */; };
 		16CF9BB91DE56F4300073787 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9BB81DE56F4300073787 /* ___Tests.m */; };
 		16CF9BC41DE56F4300073787 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9BC31DE56F4300073787 /* ___UITests.m */; };
+		16CF9BD31DE56F9000073787 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9BD21DE56F9000073787 /* SetViewController.m */; };
+		16CF9BD61DE56FA300073787 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9BD51DE56FA300073787 /* SimpleViewController.m */; };
+		16CF9BD91DE56FB600073787 /* TroubleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9BD81DE56FB600073787 /* TroubleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		16CF9BBF1DE56F4300073787 /* 练练看UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "练练看UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CF9BC31DE56F4300073787 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		16CF9BC51DE56F4300073787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CF9BD11DE56F9000073787 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		16CF9BD21DE56F9000073787 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		16CF9BD41DE56FA300073787 /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		16CF9BD51DE56FA300073787 /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		16CF9BD71DE56FB600073787 /* TroubleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TroubleViewController.h; sourceTree = "<group>"; };
+		16CF9BD81DE56FB600073787 /* TroubleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TroubleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				16CF9BA21DE56F4200073787 /* AppDelegate.m */,
 				16CF9BA41DE56F4300073787 /* ViewController.h */,
 				16CF9BA51DE56F4300073787 /* ViewController.m */,
+				16CF9BD11DE56F9000073787 /* SetViewController.h */,
+				16CF9BD21DE56F9000073787 /* SetViewController.m */,
+				16CF9BD41DE56FA300073787 /* SimpleViewController.h */,
+				16CF9BD51DE56FA300073787 /* SimpleViewController.m */,
+				16CF9BD71DE56FB600073787 /* TroubleViewController.h */,
+				16CF9BD81DE56FB600073787 /* TroubleViewController.m */,
 				16CF9BA71DE56F4300073787 /* Main.storyboard */,
 				16CF9BAA1DE56F4300073787 /* Assets.xcassets */,
 				16CF9BAC1DE56F4300073787 /* LaunchScreen.storyboard */,
@@ -273,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CF9BD61DE56FA300073787 /* SimpleViewController.m in Sources */,
 				16CF9BA61DE56F4300073787 /* ViewController.m in Sources */,
+				16CF9BD91DE56FB600073787 /* TroubleViewController.m in Sources */,
+				16CF9BD31DE56F9000073787 /* SetViewController.m in Sources */,
 				16CF9BA31DE56F4200073787 /* AppDelegate.m in Sources */,
 				16CF9BA01DE56F4200073787 /* main.m in Sources */,
 			);
@@ -507,6 +525,7 @@
 				16CF9BCA1DE56F4300073787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16CF9BCB1DE56F4300073787 /* Build configuration list for PBXNativeTarget "练练看Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +534,7 @@
 				16CF9BCD1DE56F4300073787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16CF9BCE1DE56F4300073787 /* Build configuration list for PBXNativeTarget "练练看UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +543,7 @@
 				16CF9BD01DE56F4300073787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
